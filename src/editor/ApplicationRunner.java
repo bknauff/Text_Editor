@@ -2,6 +2,7 @@ package editor;
 
 public class ApplicationRunner {
     public static void main(String[] args) {
-        new TextEditor();
+        var te = new TextEditor();
+        te.setVisible(true);
     }
 }
